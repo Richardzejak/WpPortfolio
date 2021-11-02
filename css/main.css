@@ -52,9 +52,14 @@ body {
   border-radius: 50%;
 }
 
+.frontpage-icon-container {
+  text-align: center;
+}
+
 .bi {
   color: lightgrey;
   font-size: 30px;
+  margin-left: 10px;
 }
 .bi:hover {
   color: rgb(252, 228, 162);

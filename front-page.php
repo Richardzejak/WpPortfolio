@@ -16,11 +16,15 @@ get_header();
             <a class="frontpage-link" href="om">Mer Om mig ></a>
         </div>
         <div class="p-2 frontpage-image-container">
-            <img class="frontpage-image" src="<?php echo $theImage; ?>">
-            <a class="bi bi-linkedin" href="#" target="_blank"></a>
-            <a class="bi bi-github" href="#" target="_blank"></a>
-            <a class="bi bi-mailbox2" href="#"></a>
-            <a class="bi bi-geo-alt-fill" href="#"></a>
+            <div>
+                <img class="frontpage-image" src="<?php echo $theImage; ?>">
+            </div>
+            <div class="frontpage-icon-container">
+                <a class="bi bi-linkedin" href="#" target="_blank"></a>
+                <a class="bi bi-github" href="#" target="_blank"></a>
+                <a class="bi bi-mailbox2" href="#"></a>
+                <a class="bi bi-geo-alt-fill" href="#"></a>
+            </div>
         </div>
     </div>
 </div>
