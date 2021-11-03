@@ -41,3 +41,32 @@ body {
 .bi:hover {
   color: rgb(252, 228, 162);
 }
+
+/* About */
+
+.about-column {
+  margin-top: 100px;
+}
+
+.about-text-container {
+  margin-top: 50px;
+}
+
+.about-link {
+  color: rgb(252, 228, 162);
+}
+.about-link:hover {
+  color: lightgrey;
+}
+
+.about-image-container {
+  margin-left: 150px;
+}
+
+.about-image {
+  width: 300px;
+}
+
+.about-icon-container {
+  text-align: center;
+}
