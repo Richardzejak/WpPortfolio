@@ -1,3 +1,8 @@
+@import "front-page.css";
+@import "about.css";
+@import "contact.css";
+@import "portfolio.css";
+
 * {
   margin: 0;
   padding: 0;
@@ -26,34 +31,6 @@ body {
 
 .menu a:hover {
   color: rgb(252, 228, 162);
-}
-
-.frontpage-column {
-  margin-top: 100px;
-}
-
-.frontpage-text-container {
-  margin-top: 50px;
-}
-
-.frontpage-link {
-  color: rgb(252, 228, 162);
-}
-.frontpage-link:hover {
-  color: lightgrey;
-}
-
-.frontpage-image-container {
-  margin-left: 150px;
-}
-
-.frontpage-image {
-  width: 300px;
-  border-radius: 50%;
-}
-
-.frontpage-icon-container {
-  text-align: center;
 }
 
 .bi {

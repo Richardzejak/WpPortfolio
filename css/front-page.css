@@ -1,0 +1,27 @@
+.frontpage-column {
+  margin-top: 100px;
+}
+
+.frontpage-text-container {
+  margin-top: 50px;
+}
+
+.frontpage-link {
+  color: rgb(252, 228, 162);
+}
+.frontpage-link:hover {
+  color: lightgrey;
+}
+
+.frontpage-image-container {
+  margin-left: 150px;
+}
+
+.frontpage-image {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.frontpage-icon-container {
+  text-align: center;
+}
