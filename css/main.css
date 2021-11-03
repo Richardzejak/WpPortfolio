@@ -1,4 +1,66 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.menu {
+  justify-content: center;
+  display: flex;
+  list-style: none;
+  padding: 10px;
+}
+
+.menu a {
+  margin-left: 30px;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  color: lightgrey;
+}
+
+.menu a:hover {
+  color: rgb(252, 228, 162);
+}
+
+.frontpage-column {
+  margin-top: 100px;
+}
+
+.frontpage-text-container {
+  margin-top: 50px;
+}
+
+.frontpage-link {
+  color: rgb(252, 228, 162);
+}
+.frontpage-link:hover {
+  color: lightgrey;
+}
+
+.frontpage-image-container {
+  margin-left: 150px;
+}
+
+.frontpage-image {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.frontpage-icon-container {
+  text-align: center;
+}
+
+.bi {
+  color: lightgrey;
+  font-size: 30px;
+  margin-left: 10px;
+}
+.bi:hover {
+  color: rgb(252, 228, 162);
 }
