@@ -28,9 +28,22 @@ get_header();
                 <img class="frontpage-image" src="<?php echo $theImage; ?>">
             </div>
             <div class="frontpage-icon-container">
-                <a class="bi bi-linkedin" href="<?php echo $linkedin ?>" target="_blank"></a>
-                <a class="bi bi-github" href="<?php echo $github ?>" target="_blank"></a>
-                <a class="bi bi-mailbox2" href="mailto: <?php echo $mail ?>"></a>
+                
+                <?php
+                if(!empty($linkedin))
+                { ?>
+                    <a class="bi bi-linkedin" href="<?php echo $linkedin ?>" target="_blank"></a> <?php
+                }
+
+                if(!empty($github))
+                { ?>
+                    <a class="bi bi-github" href="<?php echo $github ?>" target="_blank"></a> <?php
+                }
+
+                if(!empty($mail))
+                { ?>
+                    <a class="bi bi-mailbox2" href="mailto: <?php echo $mail ?>"></a> <?php
+                } ?>
                 <a class="bi bi-geo-alt-fill" href="#"></a>
             </div>
         </div>
