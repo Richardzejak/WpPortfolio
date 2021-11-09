@@ -9,6 +9,7 @@
       <?php endif; ?>
    </div>
 
+   <a href="/./projects" class="btn btn-dark" >Back to projects</a>
 <?php
    get_footer();
 ?>
