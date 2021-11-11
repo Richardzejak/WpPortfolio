@@ -13,6 +13,8 @@ function load_css()
 
 add_action('wp_enqueue_scripts', 'load_css');
 
+add_theme_support( 'post-thumbnails' );
+
 register_nav_menus(
     array(
         'main-menu' => 'Main menu location',

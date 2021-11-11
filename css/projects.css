@@ -1,0 +1,18 @@
+.projects_card {
+  color: black;
+}
+
+.projects_container {
+  text-align: center;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.projects_post {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.projects_button {
+  margin-top: 40px;
+}
