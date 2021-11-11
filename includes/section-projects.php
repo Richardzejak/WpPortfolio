@@ -4,14 +4,13 @@
 
 ?>
 
-<div>
+<div class="projects_container">
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post();
       ?>
 
-
    <div class="projects_card">
       <div class="card" style="width: 18rem;">
-         <img class="card-img-top" src="<?php echo the_post_thumbnail( 'thumbnail' ); ?>" alt="Card image cap">
+         <img class="card-img-top" src="<?php echo the_post_thumbnail( 'medium' );?> ">
          <div class="card-body">
          <h5 class="card-title"><?php echo the_title(); ?></h5>
          <p class="card-text"><?php echo the_excerpt(); ?></p>
