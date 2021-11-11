@@ -1,0 +1,16 @@
+.contact_column {
+  margin-top: 125px;
+}
+
+.contact_bi:hover {
+  color: lightgrey !important;
+}
+
+.contact_left {
+  text-align: center;
+}
+
+.contact_link:hover {
+  color: rgb(252, 228, 162);
+  cursor: pointer;
+}
